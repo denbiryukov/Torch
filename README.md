@@ -7,7 +7,6 @@ In this project, I managed to combine 2 functions:
 2. I made the transition to the second screen, where the second task was implemented - "Traffic Light".
 3. An icon has been added to the application.
 
-
 <img width="472" alt="Снимок экрана 2020-12-10 в 16 53 44" src="https://user-images.githubusercontent.com/75224149/101781018-57939900-3b08-11eb-82de-9eeb4d99c9e7.png">
 
 <img width="452" alt="Снимок экрана 2020-12-10 в 16 26 40" src="https://user-images.githubusercontent.com/75224149/101779859-d7206880-3b06-11eb-8e09-b8dc93f8e0b1.png">
