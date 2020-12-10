@@ -11,13 +11,13 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Torch_and_traffic_light" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FlashLight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bet-w7-2hn">
-                                <rect key="frame" x="20" y="0.0" width="374" height="400"/>
+                                <rect key="frame" x="20" y="44" width="374" height="400"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="400" id="ChS-Sk-Egd"/>
                                 </constraints>
@@ -30,13 +30,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6y-Lp-WxT">
-                                <rect key="frame" x="0.0" y="408" width="414" height="400"/>
+                                <rect key="frame" x="0.0" y="462" width="414" height="400"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="400" id="NTv-7S-Y7R"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="65"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                <state key="normal" title="Colors">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="FAn-7j-vvy" kind="show" id="ngn-vI-Mf8"/>
@@ -44,7 +45,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="U6y-Lp-WxT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1eR-X3-auY"/>
                             <constraint firstItem="U6y-Lp-WxT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ei8-IO-3qY"/>
@@ -63,7 +64,7 @@
         <!--Title-->
         <scene sceneID="t44-zV-wVq">
             <objects>
-                <viewController id="FAn-7j-vvy" customClass="ViewController" customModule="Torch_and_traffic_light" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FAn-7j-vvy" customClass="ViewController" customModule="FlashLight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="ukw-Cg-aSl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,16 +76,6 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonPresed:" destination="FAn-7j-vvy" eventType="touchUpInside" id="KvB-wj-hbb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOO-aY-Whl">
-                                <rect key="frame" x="20" y="0.0" width="128" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Back">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="ELS-a3-mkb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -105,17 +96,14 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

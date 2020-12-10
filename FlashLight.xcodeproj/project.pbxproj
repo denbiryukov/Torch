@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE298FA8258213C300E4431B /* Torch and traffic light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Torch and traffic light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE298FA8258213C300E4431B /* FlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE298FAB258213C300E4431B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE298FAD258213C300E4431B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE298FAF258213C300E4431B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FE298FA9258213C300E4431B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE298FA8258213C300E4431B /* Torch and traffic light.app */,
+				FE298FA8258213C300E4431B /* FlashLight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE298FA7258213C300E4431B /* Torch and traffic light */ = {
+		FE298FA7258213C300E4431B /* FlashLight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE298FBC258213C500E4431B /* Build configuration list for PBXNativeTarget "Torch and traffic light" */;
+			buildConfigurationList = FE298FBC258213C500E4431B /* Build configuration list for PBXNativeTarget "FlashLight" */;
 			buildPhases = (
 				FE298FA4258213C300E4431B /* Sources */,
 				FE298FA5258213C300E4431B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Torch and traffic light";
+			name = FlashLight;
 			productName = "Torch and traffic light";
-			productReference = FE298FA8258213C300E4431B /* Torch and traffic light.app */;
+			productReference = FE298FA8258213C300E4431B /* FlashLight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FE298FA3258213C300E4431B /* Build configuration list for PBXProject "Torch and traffic light" */;
+			buildConfigurationList = FE298FA3258213C300E4431B /* Build configuration list for PBXProject "FlashLight" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE298FA7258213C300E4431B /* Torch and traffic light */,
+				FE298FA7258213C300E4431B /* FlashLight */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE298FA3258213C300E4431B /* Build configuration list for PBXProject "Torch and traffic light" */ = {
+		FE298FA3258213C300E4431B /* Build configuration list for PBXProject "FlashLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE298FBA258213C500E4431B /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE298FBC258213C500E4431B /* Build configuration list for PBXNativeTarget "Torch and traffic light" */ = {
+		FE298FBC258213C500E4431B /* Build configuration list for PBXNativeTarget "FlashLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE298FBD258213C500E4431B /* Debug */,

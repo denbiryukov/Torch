@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     var lightOn = 0
     
-//    view.backgroundColor = .grey
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
     
     fileprivate func updareUI() {
         switch lightOn {
